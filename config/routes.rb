@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  resources :peices
-  get 'page/home'
 
-  get 'page/about'
+  devise_for :users
+  root 'page#home'
+
+
+
 
   get 'page/blog'
 
