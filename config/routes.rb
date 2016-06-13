@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :peices
   devise_for :users
   root 'page#home'
-
 
   get 'page/about'
 
