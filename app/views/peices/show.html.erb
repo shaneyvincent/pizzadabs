@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @peice.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @peice.description %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @peice.image_url %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @peice.price %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @peice.category %>
+</p>
+
+<p>
+  <strong>Subcategory:</strong>
+  <%= @peice.subcategory %>
+</p>
+
+<%= link_to 'Edit', edit_peice_path(@peice) %> |
+<%= link_to 'Back', peices_path %>
