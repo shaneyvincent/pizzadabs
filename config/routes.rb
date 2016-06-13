@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+  devise_for :users
+
+  get '/cart' => 'cart#index'
+  get '/cart/clear' => 'cart#clearCart'
 
   resources :peices
-  devise_for :users
+
   root 'page#home'
 
   get 'page/about'
