@@ -4,18 +4,21 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 pre {
   background-color: #eee;
   padding: 10px;
   font-size: 11px;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 a {
@@ -64,10 +67,16 @@ div {
     margin-bottom: 0px;
     background-color: #c00;
     color: #fff;
+    font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
   }
 
   ul li {
     font-size: 12px;
     list-style: square;
+    font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
   }
+}
+
+h1 h2 a {
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }

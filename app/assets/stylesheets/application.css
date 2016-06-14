@@ -23,6 +23,7 @@
   width: 100%;
   height: 40px;
   background: #000;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 #page_nav a, #sign_in a{
@@ -30,20 +31,28 @@
   color: #fff;
   padding: 0 20px 0 20px;
   text-decoration: none;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 #page_nav{
   margin: 0 0 0 5%;
   float: left;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 #sign_in{
   float:right;
   margin: 0 5% 0 0;
+  font-family: 'Caesar Little SS',verdana, arial, helvetica, sans-serif !important;
 }
 
 #main_wrap{
   width: 90%;
   float: left;
   margin: 20px 5% 0 5%
+}
+
+@font-face {
+  font-family: "Caesar Little SS";
+  src: url(/assets/Caesar Little SS.ttf) format("truetype");
 }

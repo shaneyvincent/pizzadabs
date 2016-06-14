@@ -27,6 +27,7 @@
         <td><%= link_to 'Show', peice %></td>
         <td><%= link_to 'Edit', edit_peice_path(peice) %></td>
         <td><%= link_to 'Destroy', peice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><a href="/cart/<%= peice.id %>"> Add To Cart</a></td>
       </tr>
     <% end %>
   </tbody>
